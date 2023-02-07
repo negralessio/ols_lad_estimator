@@ -13,6 +13,7 @@ The data set is the [Engel (1857) food expenditure data](https://www.statsmodels
 ![](figures/population_w_outlier.svg)
 
 # Example
+![](figures/comparison_intercept.svg)
 ![](figures/comparison_beta_1.svg)
 
 # How to Install
