@@ -7,6 +7,11 @@ We analysed the behaviour of the OLS / LAD regression estimators in the presence
 - Peter Fabisch
 - Alessio Negrini
 
+## Approach
+The data set is the [Engel (1857) food expenditure data](https://www.statsmodels.org/dev/datasets/generated/engel.html) that describes the income and food expenditure for N=235 working class households in 1857 Belgium. We first fitted a OLS and LAD regression on this population and after that we added synthetically k (default k=10%) outliers to the data (orange dots) from which we repeatedly drew n=100 samples. This samples were then used for OLS and LAD regression. We can now compare how OLS and LAD behave when we add synthetically outliers to the population.
+
+![](figures/population_w_outlier.svg)
+
 # Example
 ![](figures/comparison_beta_1.svg)
 
